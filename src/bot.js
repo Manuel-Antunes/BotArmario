@@ -6,8 +6,6 @@ const docs = google.docs("v1");
 const client = new Discord.Client();
 const api = new Discord.APIMessage();
 
-
-
 client.on("ready", () => {
     console.log("Bot começou CARALHO");
     client.user.setActivity("Fazendo o Curso");
