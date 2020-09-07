@@ -1,23 +1,35 @@
 {
-    "name": "BotArmario",
-    "version": "1.0.0",
-    "description": "Sua mãe",
-    "main": "index.js",
-    "repository": "https://github.com/Manuel-Antunes/BotArmario",
-    "author": "Peixonalta",
-    "license": "MIT",
-    "dependencies": {
-        "date-fns": "^2.16.1",
-        "discord.js": "^12.3.1",
-        "dotenv": "^8.2.0",
-        "googleapis": "^59.0.0",
-        "mongoose": "^5.10.3",
-        "sequelize": "^6.3.5"
-    },
-    "scripts": {
-        "dev": "nodemon src/bot.js"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.4"
-    }
+  "name": "botarmario",
+  "version": "1.0.0",
+  "description": "Sua mãe",
+  "main": "index.js",
+  "repository": "https://github.com/Manuel-Antunes/BotArmario",
+  "author": "Peixonalta",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "googleapis": "^59.0.0",
+    "mongoose": "^5.10.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --inspect --transpile-only -I node_modules src/bot.ts"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.36",
+    "@typescript-eslint/eslint-plugin": "^3.10.0",
+    "@typescript-eslint/parser": "^3.10.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.0",
+    "ts-node-dev": "^1.0.0-pre.60",
+    "typescript": "^4.0.2"
+  }
 }

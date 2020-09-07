@@ -1,6 +1,8 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 class Database {
+  mongoConnection: Promise<typeof mongoose>;
+
   constructor() {
     this.mongo();
   }
@@ -13,4 +15,4 @@ class Database {
   }
 }
 
-module.exports = new Database();
+export default new Database();
