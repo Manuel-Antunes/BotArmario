@@ -7,9 +7,12 @@
     "author": "Peixonalta",
     "license": "MIT",
     "dependencies": {
+        "date-fns": "^2.16.1",
         "discord.js": "^12.3.1",
         "dotenv": "^8.2.0",
-        "googleapis": "^59.0.0"
+        "googleapis": "^59.0.0",
+        "mongoose": "^5.10.3",
+        "sequelize": "^6.3.5"
     },
     "scripts": {
         "dev": "nodemon src/bot.js"
