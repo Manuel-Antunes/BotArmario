@@ -1,13 +1,19 @@
 {
-  "name": "BotArmario",
-  "version": "1.0.0",
-  "description": "Sua mãe",
-  "main": "index.js",
-  "repository": "https://github.com/Manuel-Antunes/BotArmario",
-  "author": "Peixonalta",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0"
-  }
+    "name": "BotArmario",
+    "version": "1.0.0",
+    "description": "Sua mãe",
+    "main": "index.js",
+    "repository": "https://github.com/Manuel-Antunes/BotArmario",
+    "author": "Peixonalta",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^12.3.1",
+        "dotenv": "^8.2.0"
+    },
+    "scripts": {
+        "dev": "nodemon src/bot.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
